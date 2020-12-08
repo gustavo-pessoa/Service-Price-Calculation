@@ -7,35 +7,39 @@
     <title>Service Price Calculation</title>
 </head>
 <body>
-    <script src="scripts/script.js"></script>
+    
     <div class="container">
         <h1>Valores de Contrato</h1>
-        <input id="cotacaoDoDolar" name="cotacaoDoDolar" type="number" placeholder="Cotação do Dólar">
+
         <h2>Visitas</h2>
-        <input id="tempoDeContrato" name="tempoDeContrato" type="number" placeholder="Tempo de Contrato">
         <input id="distancia" name="distancia" type="number" placeholder="Distância">
         <input id="tempoDeDeslocamento" name="tempoDeDeslocamento" type="number" placeholder="Tempo de Deslocamento">
         <input id="valorDePedagio" name="valorDePedagio" type="number" placeholder="Valor de Pedágio">
+
         <h2>Inventário</h2>
-        <input id="servidores" name="servidores" type="number" placeholder="Servidores">
         <input id="computadores" name="computadores" type="number" placeholder="Computadores">
         <input id="impressoras" name="impressoras" type="number" placeholder="Impressoras">
-        <input id="switch" name="switch" type="number" placeholder="Switch">
+        <input id="servidores" name="servidores" type="number" placeholder="Servidores">
+        <input id="switches" name="switches" type="number" placeholder="Switches">
+
         <h2>Produtos</h2>
+
         <h3>Básico</h3>
         <input id="monitoramento" name="monitoramento" type="number" placeholder="Monitoramento">
+
         <h3>Segurança</h3>
         <input id="antiVirus" name="antiVirus" type="number" placeholder="Antivírus">
         <input id="webProtection" name="webProtection" type="number" placeholder="Web Protection">
         <input id="riskIntelligence" name="riskIntlligence" type="number" placeholder="Risk Intelligence">
         <h3>Plus</h3>
         <input id="backup" name="backup" type="number" placeholder="Backup">
-        <input id="psi" name="psi" type="number" placeholder="PSI">
-        <input id="pcn" name="psi" type="number" placeholder="PCN">
+      
         <button onclick="calcular()">Calcular</button>
     </div>
     <div id="resultado">
         
     </div>
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>
