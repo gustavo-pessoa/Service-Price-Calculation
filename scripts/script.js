@@ -78,7 +78,7 @@ function calcular(){
     
     let resultado = document.getElementById("resultado");
 
-    resultado.innerHTML = `<p>Valor do Contrato: ${Math.ceil(valorContrato)} Reais<p>`;
+    resultado.innerHTML = `<h3>Valor do Contrato: ${Math.ceil(valorContrato)} Reais</h3>`;
 }
 
 

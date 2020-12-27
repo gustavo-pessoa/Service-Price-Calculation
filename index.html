@@ -8,37 +8,49 @@
 </head>
 <body>
     
-    <div class="container">
+    <div class="container" id="titulo">
         <h1>Valores de Contrato</h1>
+   
 
-        <h2>Visitas</h2>
+    <div class="container" id="visitas">
+        <h3>Visitas</h3>
         <input id="distancia" name="distancia" type="number" placeholder="Distância">
         <input id="tempoDeDeslocamento" name="tempoDeDeslocamento" type="number" placeholder="Tempo de Deslocamento">
         <input id="valorDePedagio" name="valorDePedagio" type="number" placeholder="Valor de Pedágio">
+    </div>
 
-        <h2>Inventário</h2>
+    <div class="container" id="inventario">
+        <h3>Inventário</h3>
         <input id="computadores" name="computadores" type="number" placeholder="Computadores">
         <input id="impressoras" name="impressoras" type="number" placeholder="Impressoras">
         <input id="servidores" name="servidores" type="number" placeholder="Servidores">
         <input id="switches" name="switches" type="number" placeholder="Switches">
+    </div>
 
-        <h2>Produtos</h2>
-
+    <div class="container" id="basico">
         <h3>Básico</h3>
         <input id="monitoramento" name="monitoramento" type="number" placeholder="Monitoramento">
+    </div>    
 
+    <div class="container" id="seguranca">
         <h3>Segurança</h3>
         <input id="antiVirus" name="antiVirus" type="number" placeholder="Antivírus">
         <input id="webProtection" name="webProtection" type="number" placeholder="Web Protection">
         <input id="riskIntelligence" name="riskIntlligence" type="number" placeholder="Risk Intelligence">
+    </div>
+
+    <div class ="container" id="plus">
         <h3>Plus</h3>
         <input id="backup" name="backup" type="number" placeholder="Backup">
-      
-        <button onclick="calcular()">Calcular</button>
-
-        <div id="resultado"></div>
     </div>
     
+
+    <div class="container" id="button"><button onclick="calcular()">Calcular</button></div>
+
+    <div class="container" id="resultado">
+        <h3>Valor do Contrato: 0 Reais</h3> 
+     </div>
+</div>
     <script src="scripts/script.js"></script>
 </body>
 
