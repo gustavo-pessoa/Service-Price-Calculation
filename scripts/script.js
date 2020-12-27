@@ -12,7 +12,7 @@ let inputRiskIntelligence = document.getElementById("riskIntelligence");
 let inputBackup = document.getElementById("backup"); 
  
 
-let resultado = document.getElementById("resultado");
+
 
 function calcular(){
     console.log("Calculando...")
@@ -75,8 +75,13 @@ function calcular(){
 
     console.log(valorContrato);
 
-    return valorContrato;
     
+    let resultado = document.getElementById("resultado");
+
+    resultado.innerHTML = `<p>Valor do Contrato: ${Math.ceil(valorContrato)} Reais<p>`;
 }
+
+
+
 
 /*=($Service.C15+$Product_WorkStation.D17+$Product_Server.D17+($Visit.B16*4)+($Creation.C15/C5)+C46)*1,0833*/
